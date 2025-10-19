@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Nguyễn Trường</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script src="lang.js" defer></script>
+</head>
+<body>
+  <div class="bg-overlay"></div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <h1 class="logo">Nguyễn Trường</h1>
+      <nav>
+        <a href="#hero" class="lang" data-vi="Trang chủ" data-en="Home">Trang chủ</a>
+        <a href="#about" class="lang" data-vi="Giới thiệu" data-en="About">Giới thiệu</a>
+        <a href="#skills" class="lang" data-vi="Kỹ năng" data-en="Skills">Kỹ năng</a>
+        <a href="#projects" class="lang" data-vi="Dự án" data-en="Projects">Dự án</a>
+        <a href="#contact" class="lang" data-vi="Liên hệ" data-en="Contact">Liên hệ</a>
+      </nav>
+      <button id="lang-toggle">EN</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <h2 class="slogan">“Think Different.”</h2>
+        <p class="lead lang"
+          data-vi="Tôi tin rằng công nghệ là công cụ giúp thay đổi cách con người sống và làm việc. Tôi theo đuổi định hướng trở thành một lập trình viên phần mềm, tập trung vào xây dựng những sản phẩm có trải nghiệm người dùng tốt và hiệu quả."
+          data-en="I believe technology is a tool that changes how people live and work. I aim to become a software developer focused on building user-friendly and efficient products.">
+          Tôi tin rằng công nghệ là công cụ giúp thay đổi cách con người sống và làm việc. Tôi theo đuổi định hướng trở thành một lập trình viên phần mềm, tập trung vào xây dựng những sản phẩm có trải nghiệm người dùng tốt và hiệu quả.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn lang" data-vi="Xem dự án" data-en="View projects">Xem dự án</a>
+          <a href="#contact" class="btn btn-outline lang" data-vi="Liên hệ" data-en="Contact me">Liên hệ</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="container about-grid">
+      <div class="about-left">
+        <img src="images/avatar.jpg" alt="Ảnh đại diện" class="profile">
+      </div>
+      <div class="about-right">
+        <h3 class="section-title lang" data-vi="Giới thiệu" data-en="About me">Giới thiệu</h3>
+        <p class="lang"
+          data-vi="Xin chào! Tôi là Trường, sinh viên năm 3 ngành Công nghệ thông tin, Đại học Giao thông Vận tải TP.HCM. Là một Front-end Developer đang trên đà phát triển, tôi yêu thích việc biến các thiết kế đẹp thành giao diện web mượt mà và thân thiện với người dùng. Tôi thành thạo HTML, CSS và có kinh nghiệm với ReactJS qua các dự án học tập. Tôi luôn chủ động học hỏi công nghệ mới và mong muốn tìm kiếm cơ hội thực tập để phát triển kỹ năng của mình."
+          data-en="Hello! I'm Truong, a 3rd-year IT student at Ho Chi Minh City University of Transport. As a growing Front-end Developer, I enjoy turning designs into smooth, user-friendly web interfaces. I'm skilled in HTML, CSS, and ReactJS, and I’m always eager to learn new technologies and apply them effectively. I’m seeking an internship to enhance my skills and contribute to a professional environment.">
+          Xin chào! Tôi là Trường, sinh viên năm 3 ngành Công nghệ thông tin, Đại học Giao thông Vận tải TP.HCM. Là một Front-end Developer đang trên đà phát triển, tôi yêu thích việc biến các thiết kế đẹp thành giao diện web mượt mà và thân thiện với người dùng. Tôi thành thạo HTML, CSS và có kinh nghiệm với ReactJS qua các dự án học tập. Tôi luôn chủ động học hỏi công nghệ mới và mong muốn tìm kiếm cơ hội thực tập để phát triển kỹ năng của mình.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h3 class="section-title lang" data-vi="Kỹ năng" data-en="Skills">Kỹ năng</h3>
+      <div class="skills-grid">
+        <div class="skill"><i class="fab fa-html5"></i> HTML & CSS</div>
+        <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="skill"><i class="fas fa-code"></i> C++ / C#</div>
+        <div class="skill"><i class="fab fa-react"></i> ReactJS</div>
+        <div class="skill"><i class="fab fa-git-alt"></i> Git & GitHub</div>
+        <div class="skill"><i class="fab fa-python"></i> Python</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h3 class="section-title lang" data-vi="Dự án" data-en="Projects">Dự án</h3>
+      <div class="projects-grid">
+        <div class="project">
+          <img src="imgs/project1.jpg" alt="Project 1">
+          <h4>Vehicle Management System</h4>
+          <p>Phần mềm quản lý xe ra vào sử dụng cấu trúc cây cân bằng để tối ưu tra cứu biển số.</p>
+        </div>
+        <div class="project">
+          <img src="imgs/project2.jpg" alt="Project 2">
+          <h4>Movie Ticket Booking</h4>
+          <p>Hệ thống đặt vé xem phim theo mô hình Client-Server, cập nhật dữ liệu theo thời gian thực.</p>
+        </div>
+        <div class="project">
+          <img src="imgs/project3.jpg" alt="Project 3">
+          <h4>Koi Fish Care System</h4>
+          <p>Website đặt lịch khám, tư vấn trực tuyến và quản lý hồ cá Koi cho trung tâm chăm sóc cá cảnh.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h3 class="section-title lang" data-vi="Liên hệ" data-en="Contact">Liên hệ</h3>
+      <div class="contact-links">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=truongdinhnguyen2005@gmail.com" target="_blank">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="https://github.com/NguyenTruong05" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/tr%C6%B0%E1%BB%9Dng-nguyenn-bbb057375/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Nguyễn Trường - Portfolio</p>
+  </footer>
+</body>
+</html>
